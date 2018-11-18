@@ -1,2 +1,2 @@
 # ECON628
-A repository to 
+A repository to ECON628
