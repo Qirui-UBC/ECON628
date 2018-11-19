@@ -14,7 +14,7 @@ function fixedpointmap(f, x_0, tolerance, maxiter)
 end
 
 # define a map and parameters
-f(x) = (x-1)^3
+f(x) = (x-1)^2
 
-sol = fixedpointmap(f, 0, 1.0E-8, 1000) 
+sol = fixedpointmap(f, 0, 1.0E-8, 1000)
 println("Fixed point = $(sol.value), and |x_t+1 - x_t| = $(sol.normdiff) in $(sol.iter) iterations")
